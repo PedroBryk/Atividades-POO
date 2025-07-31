@@ -19,5 +19,6 @@ public class Main {
         cliente1.nome = "Pedro";
 
         cliente1.alugarFilme(filme1);
+        cliente1.alugarFilme(filme2);
     }
 }

@@ -7,5 +7,10 @@ public class Cliente {
     void realizarPagamento(){
         System.out.println("Pagamento realizado com sucesso!");
     }
+
+    void alugarFilme(Filme filme) {
+        this.filme = filme;
+        filme.alugarFilme();
+    }
     
 }
